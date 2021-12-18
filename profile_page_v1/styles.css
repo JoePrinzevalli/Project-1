@@ -20,7 +20,12 @@ a {
 a:hover {
   color: #6633ff;
 }
-
+.no-color a {
+  color: black;
+}
+.no-color a:hover {
+  color: olive;
+}
 /* Section Styles */
 
 .main-nav {
@@ -165,6 +170,17 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+.position {
+font-style: italic;
+font-size: 14px;
+}
+.resume-detail {
+  font-size: 14px;
+}
+.header-tags {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: -60px;
 }
 
 /* Styles for larger screens */
