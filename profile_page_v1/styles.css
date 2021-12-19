@@ -75,7 +75,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 10px solid skyblue; /* this border is originally 3px solid white */
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -218,4 +218,9 @@ font-size: 14px;
   }
 
 }
-
+/* resizing pictures */
+.img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid skyblue;
+}
